@@ -73,6 +73,7 @@ The autoPVM package can be installed using pip.
 
 1. autoPVM uses Numpy, Pandas & Plotly as dependencies.
 2. Install package
+
    ```
    pip install autoPVM
    ```
