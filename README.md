@@ -36,9 +36,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -64,18 +61,6 @@
 This project aims at conducting the Price Variance Mix analysis automatically. The main purpose of PVM analysis is to provide a high-level overview view into the past, and to break down the change in revenue or margins into some key components or categories. The categories are used to highlight and help explain how much of the overall change in revenue or margins was caused by, e.g. the implemented Price changes, versus changes in total costs, versus the impact from change in Volumes, versus changes other effects, comparing two different time periods.  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-### Built With
-
-* Numpy
-* Pandas
-* Plotly
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
