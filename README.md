@@ -19,7 +19,7 @@
   <p align="center">
     Automatically conduct Price-Volume-Mix analysis on datasets.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/asonthalia/autoPVM/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/asonthalia/autoPVM/issues">Report Bug</a>
