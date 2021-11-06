@@ -123,8 +123,9 @@ Plot the bridge using
 ```
 pvm.plotPVMBridge()
 ```
-<a href="https://github.com/asonthalia/autoPVM">
-    <img src="https://github.com/asonthalia/autoPVM/blob/main/Images/autoPVM_Bridge.png" alt="Logo" width="535" height="349">
+
+<a>
+    <img src="https://github.com/asonthalia/autoPVM/blob/main/Images/autoPVM_Plot.gif" alt="Logo" width="600" height="328">
   </a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
