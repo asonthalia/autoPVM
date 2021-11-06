@@ -87,7 +87,7 @@ The autoPVM package can be installed using pip.
 
 Import the PVM class using
 ```
-from autoPVM import PVM
+from autoPVM import PVMAnalysis
 ```
 
 Read a Pandas dataframe
@@ -97,7 +97,7 @@ data = pd.read_csv('Sample Dataset/Supermarket Sales.csv')
 
 Create an analysis object and pass the dataframe
 ```
-pvm = PVM.PVMAnalysis(data=data)
+pvm = PVMAnalysis(data=data)
 ```
 
 Set column name markers of required quantities and margins
