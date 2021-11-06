@@ -93,28 +93,31 @@ from autoPVM import PVM
 Read a Pandas dataframe
 ```
 data = pd.read_csv('Sample Dataset/Supermarket Sales.csv')
-data.head(1)
 ```
 
+Create an analysis object and pass the dataframe
+```
+pvm = PVM.PVMAnalysis(data=data)
+```
+
+Set column name markers of required quantities and margins
+```
+PVM.setMarkers(\
+                 quantity_pr='QTY_PM'
+               , quantity_ac='QTY_AM'
+               , margin_pr='MARGIN_PM'
+               , margin_ac='MARGIN_AM'
+               , hierarchy=['Customer type', 'Gender', 'Branch', 'Product line'])
+```
+<ul>
+  <li>```quantity_pr``` marks previous time period quantity</li>
+  <li>```quantity_ac``` marks current/next time period quantity</li>
+  <li>```margin_pr``` marks previous time period margin</li>
+  <li>```margin_ac``` marks current/next time period margin</li>
+  <li>```hierarchy``` marks dimensional heirarchy -> HIGHEST LEVEL to LOWEST LEVEL : LEFT to RIGHT </li>
+</ul>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [] Add Additional Templates w/ Examples
-- [] Add "components" document to easily copy & paste sections of the readme
-- [] Multi-language Support
-    - [] Chinese
-    - [] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
