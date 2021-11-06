@@ -97,7 +97,7 @@ data = pd.read_csv('Sample Dataset/Supermarket Sales.csv')
 
 Create an analysis object and pass the dataframe
 ```
-pvm = PVMAnalysis(data=data)
+pvm = PVMAnalysis(data)
 ```
 
 Set column name markers of required quantities and margins
