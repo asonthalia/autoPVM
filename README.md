@@ -67,7 +67,7 @@ This project aims at conducting the Price Variance Mix analysis automatically. T
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-### Installation
+## Installation
 
 The autoPVM package can be installed using pip.
 
@@ -85,9 +85,16 @@ The autoPVM package can be installed using pip.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Import the PVM class using
+```
+from autoPVM import PVM
+```
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Read a Pandas dataframe
+```
+data = pd.read_csv('Sample Dataset/Supermarket Sales.csv')
+data.head(1)
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
