@@ -109,13 +109,13 @@ PVM.setMarkers(\
                , margin_ac='MARGIN_AM'
                , hierarchy=['Customer type', 'Gender', 'Branch', 'Product line'])
 ```
-<ul>
-  <li> `quantity_pr` marks previous time period quantity</li>
-  <li> quantity_ac marks current/next time period quantity</li>
-  <li> margin_pr marks previous time period margin</li>
-  <li> margin_ac marks current/next time period margin</li>
-  <li> hierarchy marks dimensional heirarchy -> HIGHEST LEVEL to LOWEST LEVEL : LEFT to RIGHT </li>
-</ul>
+
+`quantity_pr` marks previous time period quantity
+`quantity_ac` marks current/next time period quantity
+`margin_pr` marks previous time period margin
+`margin_ac` marks current/next time period margin
+`hierarchy` marks dimensional heirarchy: `[Highest Level, .. , Lowest Level]`
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
