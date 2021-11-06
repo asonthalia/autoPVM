@@ -116,6 +116,13 @@ PVM.setMarkers(\
 `margin_ac` marks current/next time period margin.</br>
 `hierarchy` marks dimensional heirarchy: `[Highest Level, .. , Lowest Level]`.</br>
 
+Calculate the margin bridge using
+```PVM.calculateMarginBridge()```
+
+Plot the bridge using
+```
+PVM.plotPVMBridge()
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
