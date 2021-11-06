@@ -111,10 +111,10 @@ PVM.setMarkers(\
 ```
 <ul>
   <li> `quantity_pr` marks previous time period quantity</li>
-  <li> `quantity_ac` marks current/next time period quantity</li>
-  <li> `margin_pr` marks previous time period margin</li>
-  <li> `margin_ac` marks current/next time period margin</li>
-  <li> `hierarchy` marks dimensional heirarchy -> HIGHEST LEVEL to LOWEST LEVEL : LEFT to RIGHT </li>
+  <li> quantity_ac marks current/next time period quantity</li>
+  <li> margin_pr marks previous time period margin</li>
+  <li> margin_ac marks current/next time period margin</li>
+  <li> hierarchy marks dimensional heirarchy -> HIGHEST LEVEL to LOWEST LEVEL : LEFT to RIGHT </li>
 </ul>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
