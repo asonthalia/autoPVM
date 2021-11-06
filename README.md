@@ -117,12 +117,15 @@ PVM.setMarkers(\
 `hierarchy` marks dimensional heirarchy: `[Highest Level, .. , Lowest Level]`.</br>
 
 Calculate the margin bridge using
-```PVM.calculateMarginBridge()```
+```pvm.calculateMarginBridge()```
 
 Plot the bridge using
 ```
-PVM.plotPVMBridge()
+pvm.plotPVMBridge()
 ```
+<a href="https://github.com/asonthalia/autoPVM">
+    <img src="https://github.com/asonthalia/autoPVM/blob/main/Images/autoPVM_Bridge.png" alt="Logo" width="535" height="349">
+  </a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
