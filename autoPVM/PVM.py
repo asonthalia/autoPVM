@@ -260,12 +260,12 @@ class PVMAnalysis:
             except:
                 continue
             
-        self.__data_multi_level[-1]['Other Effect'] =   self.__data_multi_level[-1]['MARGIN_AM']\
+        self.__data_multi_level[-1]['Other Effect'] =   self.__data_multi_level[-1][self.__name_dictionary['margin_ac']]\
                                                       - (   self.__data_multi_level[-1]['Other Effect']\
                                                           + self.__data_multi_level[-1]['Total Mix Effect']\
                                                           + self.__data_multi_level[-1]['Price Effect']\
                                                           + self.__data_multi_level[-1]['Volume Effect']
-                                                          + self.__data_multi_level[-1]['MARGIN_PM']
+                                                          + self.__data_multi_level[-1][self.__name_dictionary['margin_pr']]
                                                         )
         
     
@@ -325,7 +325,7 @@ class PVMAnalysis:
             key.pop()
     
     def __find_labels(self):
-        labels = ['MARGIN_PM', 'Price Effect', 'Other Effect']
+        labels = [self.__name_dictionary['margin_pr'], 'Price Effect', 'Other Effect']
         for key in self.__agg_dictionary:
             try:
                 if ' '.join(key.split(' ')[-2:]) == 'Mix Effect':
@@ -333,7 +333,7 @@ class PVMAnalysis:
             except:
                 pass
         labels.append('Volume Effect')
-        labels.append('MARGIN_AM')
+        labels.append(self.__name_dictionary['margin_ac'])
         return labels
     
     def __find_values(self, labels=None):
@@ -372,7 +372,7 @@ class PVMAnalysis:
         self.__find_labels()
     
     
-    def exportMarginBridgeFiles(self):
+    def exportMarginBridgeFile(self):
         '''
         Exports all the processing files at different levels.
         Parameters - None
