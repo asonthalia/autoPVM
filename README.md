@@ -102,7 +102,7 @@ pvm = PVM.PVMAnalysis(data=data)
 
 Set column name markers of required quantities and margins
 ```
-PVM.setMarkers(\
+pvm.setMarkers(\
                  quantity_pr='QTY_PM'
                , quantity_ac='QTY_AM'
                , margin_pr='MARGIN_PM'
