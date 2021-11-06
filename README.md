@@ -14,7 +14,7 @@
     <img src="Images/autoPVM_logo.png" alt="Logo" width="168" height="262">
   </a>
 
-  <h3 align="center">autoPVM v0.1</h3>
+  <h3 align="center">autoPVM v0.3</h3>
 
   <p align="center">
     Automatically conduct Price-Volume-Mix analysis on datasets.
